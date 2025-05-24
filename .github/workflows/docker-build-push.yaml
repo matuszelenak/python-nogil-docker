@@ -32,4 +32,4 @@ jobs:
           push: true
           context: server
           file: server/Dockerfile
-          tags: ghcr.io/matuszelenak/python:3.13-nogil-bookwork-slim:latest
+          tags: ghcr.io/matuszelenak/python:3.13-nogil-bookwork-slim
