@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - '.github/workflows/docker-server-build.yaml'
+      - '.github/workflows/docker-build-push.yaml'
 
 jobs:
   build:
