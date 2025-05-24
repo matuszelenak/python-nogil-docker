@@ -1,4 +1,4 @@
-name: Build server Docker image
+name: Build Docker image
 
 on:
   push:
@@ -30,6 +30,6 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          context: server
-          file: server/Dockerfile
+          context: .
+          file: Dockerfile
           tags: ghcr.io/matuszelenak/python:3.13-nogil-bookwork-slim
